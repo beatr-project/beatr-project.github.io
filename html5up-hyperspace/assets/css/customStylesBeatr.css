@@ -1,0 +1,25 @@
+
+
+
+body {
+	background-color: #333;
+}
+
+.wrapper.style1 {
+	background-color: #333;
+}
+.wrapper.style1-alt { /*footer*/
+	background-color: #333;
+}
+.wrapper.style2 {
+	background-color: #333;
+}
+.wrapper.style3 {
+	background-color: #333;
+}
+#sidebar {
+	background: #333;
+}
+.spotlights > section > .image:before {
+	background: rgba(0, 0, 0, 0.9);
+}
