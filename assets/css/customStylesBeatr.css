@@ -23,3 +23,13 @@ body {
 .spotlights > section > .image:before {
 	background: rgba(0, 0, 0, 0.9);
 }
+#sidebar nav a:before {
+	background: rgba(255,0,0,0.5);
+}
+
+#sidebar nav a:after {
+	background-image: -moz-linear-gradient(to right, rgb(255,0,0), rgb(255,200,0));
+	background-image: -webkit-linear-gradient(to right, rgb(255,0,0), rgb(255,200,0));
+	background-image: -ms-linear-gradient(to right, rgb(255,0,0), rgb(255,200,0));
+	background-image: linear-gradient(to right, rgb(255,0,0), rgb(255,200,0));
+}
